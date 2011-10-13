@@ -2,8 +2,8 @@
 Gem::Specification.new do |gem|
   gem.authors       = ["jugyo"]
   gem.email         = ["jugyo.org@gmail.com"]
-  gem.description   = %q{You can upload an IO to a web server through httpclient-uploadio.}
-  gem.summary       = %q{Wrapper for IO to upload to web server}
+  gem.description   = %q{Wrapper for IO to upload to web server}
+  gem.summary       = %q{You can upload an IO to a web server through httpclient-uploadio.}
   gem.homepage      = "https://github.com/jugyo/httpclient-uploadio"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
