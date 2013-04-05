@@ -1,4 +1,6 @@
 # -*- encoding: utf-8 -*-
+require File.expand_path('../lib/httpclient-uploadio/version', __FILE__)
+
 Gem::Specification.new do |gem|
   gem.authors       = ["jugyo"]
   gem.email         = ["jugyo.org@gmail.com"]
@@ -11,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "httpclient-uploadio"
   gem.require_paths = ["lib"]
-  gem.version       = '1.0.0'
+  gem.version       = Httpclient::Uploadio::VERSION
 
   gem.add_dependency 'httpclient', '~> 2.2'
 end
