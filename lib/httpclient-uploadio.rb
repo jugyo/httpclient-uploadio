@@ -1,4 +1,5 @@
 require "httpclient-uploadio/version"
+require "httpclient/uploadio"
 
 module Httpclient
   module Uploadio
