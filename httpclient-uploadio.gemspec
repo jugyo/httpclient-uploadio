@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "httpclient-uploadio"
   gem.require_paths = ["lib"]
-  gem.version       = Httpclient::Uploadio::VERSION
+  gem.version       = HTTPClient::UploadIO::VERSION
 
   gem.add_dependency 'httpclient', '~> 2.2'
 end

@@ -1,5 +1,6 @@
-require 'forwardable'
 require 'httpclient'
+require 'forwardable'
+require "httpclient-uploadio/version"
 
 class HTTPClient
   class UploadIO
